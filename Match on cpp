@@ -1,0 +1,37 @@
+// =--=-=-=-=-=-==--==--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+// Примеры решения математичесих задач на c++
+// V 1.0
+// =--=-=-=-=-=-==--==--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+#include<iostream>
+using namespace std;
+
+int main() {
+	cout << "Найти средне арифмитическое" << "\n" ;
+	int resolt = 0 , FirstNum = 0 , secondNum = 0 , thirdNum = 0;
+	cout << "Введите 3 натуральных числа:  ";
+	cin >> FirstNum >> secondNum >> thirdNum;
+	resolt = FirstNum + secondNum + thirdNum / 3;
+	cout << "Средне Арифмитическое:  " << resolt << "\n" ;
+
+	cout << "Найти обшее сопративление последовательных резисторов\n";
+	cout << "Введите значение 2 резистеров:  ";
+	float totalRez = 0, firstRez = 0, secondRez = 0;
+	cin >> firstRez >> secondRez ;
+	totalRez = firstRez + secondRez;
+	cout << "Обшее сопративление резистеров:  " << totalRez << "\n" ;
+	
+	cout << "Найти обшее сопративление последовательных резисторов\n";
+	cout << "Введите значение 2 резистеров:  ";
+	float totalRez = 0, firstRez = 0, secondRez = 0;
+	cin >> firstRez >> secondRez ;
+	totalRez = firstRez + secondRez;
+	cout << "Обшее сопративление резистеров:  " << totalRez << "\n" ;
+  return 0;
+}
+// Output:
+/*
+
+*/
+// =--=-=-=-=-=-==--==--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+// 	END FILE
+// =--=-=-=-=-=-==--==--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
