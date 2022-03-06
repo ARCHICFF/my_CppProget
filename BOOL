@@ -1,0 +1,45 @@
+//=-=-=--=-=-=-=-=-=-=-=-=-=-==--=-=-=
+//Буливый тип данных.Простые примеры
+// V1.0
+//=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+#include<iostream>
+using namespace std;
+
+int main() {
+	cout << boolalpha;
+	bool a = false; // 0 - False, 1 - True
+	bool b = true;
+	int aa =5, bb = 12;
+	bool result = (aa == bb) ? true : false ;
+	cout << a <<"\t"<<b<<"\n";
+	cout << "аа равно бб?" << result << "\n";
+	result = (aa < bb) ? true : false; // < оператор сравнения меньше
+	cout << "аа меньше бб?" << result << "\n";
+	result = (aa > bb) ? true : false; // > оператор сравнение больше
+	cout << "аа меньше бб?" << result << "\n";
+	result = (aa <= bb) ? true : false; 
+	cout << "аа меньше или равно бб?" << result << "\n";
+	result = (aa >= bb) ? true : false;
+	cout << "аа больше или равно бб?" << result << "\n";
+	result = (aa != bb) ? true : false;	
+	cout << "аа не равно бб?" << result << "\n";
+	result = (aa < bb) || (aa > bb); // aa меньше bb ИЛИ aa больше bb. 1 ИЛИ 1-true 0 ИЛИ 0-false
+	cout << "Сравните ИЛИ " << result << "\n";
+	result = (aa < bb) && (aa > bb); // aa меньше bb ИЛИ aa больше bb. 1 ИЛИ 1-true 0 ИЛИ 0-false
+	cout << "Сравните логического И " << result << "\n";
+	result = (aa < bb) xor (aa > bb);
+	cout << "Сравнение.Логическое исключающее ИЛИ XOR" << result << "\n";
+	
+	return 0;
+}
+//Output
+/*
+	result = (aa < bb) || (aa > bb); // aa меньше bb ИЛИ aa больше bb. 1 ИЛИ 1-true 0 ИЛИ 0-false
+	cout << "Сравните ИЛИ " << result << "\n";
+*/
+
+
+
+//=-=--=-==-=--=-=-=-=-=-==-=--=-=-=-=
+//END_FILE
+//=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
