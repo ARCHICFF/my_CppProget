@@ -1,0 +1,24 @@
+//= -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+//Булевый тип данных. Простая задачка
+//V 1.0
+//--==--=-=-=-=-=-=-=-=-=-=-=-=-=
+#include<iostream>
+using namespace std;
+
+int main() {
+	cout << boolalpha;
+	cout <<"Попадёт ли человек на работу, если: " << "\n";
+	bool work = true;
+	cout << "На улице дождик? ";
+	bool rain;
+	cin >> rain;
+	cout << "Есть ли у человека зонт? ";
+	bool umbrella;
+	cin >> umbrella;
+	cout <<"Автобус приехал? ";
+	bool bus;
+	cin >> bus;
+	work = bus || (umbrella >  rain);
+	cout << "Попадёт ли человек на работу? " << work << "\n";
+	return 0;
+}
