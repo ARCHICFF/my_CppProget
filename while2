@@ -1,0 +1,45 @@
+//=-=-=-=-=-=-=-=-==--==-=--==--=-==--=
+//Пример цикла с условием и выбором варианта
+//V 1.0
+//=-=-==--=-=-=-=-===-=--=-=-==--=-=-==
+#include<iostream>
+using namespace std;
+
+int main() {
+	char again = 'y';
+	while (again == 'y') {
+		cout << "Выбор уровня сложности игры 1,2 или 3 " << "\n";
+		cout << "молокосос (1)\n";
+		cout << "средний (2)\n";
+		cout << "Кошмар (3)\n";
+		int chooseMenu = 0;
+		cin >> chooseMenu;
+		switch (chooseMenu)
+		{
+		case 1:
+		cout << "Вы малыш\n ";
+			break;
+		case 2:
+		cout << "Вы солдат \n ";
+			break;
+		case 3:
+		cout << "Вы безумец\n ";
+			break;
+		default:
+		cout << "Вы не смогли выбрать сложность\n ";
+		break;
+		}
+		cout << "Хотите продолжить? (y/n):" << endl;
+		cin >> again;
+		
+	}
+	return 0;
+}
+// Output:
+/*
+
+*/
+//=-=-=-=-=-=-=-=-==--==-=--==--=-==--=
+//
+//End file
+//=-=-==--=-=-=-=-===-=--=-=-==--=-=-== 
