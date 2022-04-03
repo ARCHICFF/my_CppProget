@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+   	int count = 0;
+   	bool exitLoop = false;
+   	while(!exitLoop) {
+   		cout << "Введите 'e': ";
+   		char ch;
+   		cin >> ch;
+   		if (ch == 'e') {
+   			exitLoop = true;
+   		}
+   		else {
+   			++count;
+   			cout << "Повторили " << count << "заз\n";
+   		}	
+  	}
+  	cout << "Сума повтора " << count << " Сколько раз\n";
+    return 0;
+}	
